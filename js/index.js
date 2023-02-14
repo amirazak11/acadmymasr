@@ -31,3 +31,44 @@ for (let i = 0; i < cards.length; i++) {
 }
 
 cardsContainer.innerHTML = cartona;
+
+$(".navbar-toggler").click(function () {
+  $(".nav-item-res").animate({
+    opacity: "1",
+    marginBottom: "15px"
+  }, 1000)
+})
+
+$(".closebtn").click(function () {
+  $(".nav-item-res").animate({
+    opacity: "0",
+    marginBottom: "0px"
+  },0);
+})
+$("#greyDiv").click(function () {
+  $(".nav-item-res").animate({
+    opacity: "0",
+    marginBottom: "0px"
+  },0);
+})
+$(document).ready(function () {
+  $(".nav-item-res a").click(function (){
+    $(".nav-item-res a.active").removeClass("active");
+    $(this).addClass("active");
+  });
+});
+document.getElementById("greyDiv").style.display = "none ";
+
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "65%";
+  document.getElementById("greyDiv").style.display = "block";
+
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0%";
+  document.getElementById("greyDiv").style.display = "none ";
+
+
+}
