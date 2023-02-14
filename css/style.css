@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    direction: rtl;
+    font-family: 'Tajawal';
+    font-style: normal;
+}
+
+
+nav {
+    font-weight: 500;
+    margin-top: 39px;
+}
+#navbarSupportedContent ul li a {
+
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #4B505A;
+    
+}
+#navbarSupportedContent ul li a.active , #navbarSupportedContent ul li a:hover{
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    
+    color: #4B505A;
+}
+
+.header-btn {
+    height: 48px;
+}
+#header{
+    margin-top: 80px;
+}
+.btn-bg-white {
+    
+    width: 126px;
+    height: 42px;
+    left: 159px;
+    top: 39px;
+    background-color: transparent;
+    border: 1px solid #222835;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn-bg-white a {
+    font-family: 'Tajawal';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222835;
+    opacity: 0.5;
+}
+
+.btn-bg-white:hover {
+    background-color: transparent;
+    border: 1px solid #222835;
+    border-radius: 4px;
+}
+.header-section {
+    width: 705px;
+height: 200px;
+margin-top: 79px;
+margin-bottom: 42px;
+}
+
+.header-section h2{    
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 76px;
+    text-align: right;
+    
+    color: #1F2533;
+
+}
+
+
+
+.sectionLabel-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionHeader {
+padding-top: 100px;
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;    
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #000000;
+}
+
+.sectionLabel-text h2 {
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #111111;
+}
+
+.sectionLabel-text p {
+    font-weight: 400;
+    width: 540px;
+height: 48px;
+margin-top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    text-align: center;
+    
+    color: #5F6871;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 54px 80px rgba(0, 0, 0, 0.03);
+    border-radius: 12px;
+    border: none !important;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+
+
+#cards-container {
+    margin-top: 18px;
+}
+
+
+
+.input-data label {
+    margin: 20px 0 12px 0;
+}
+
+.card .text-about-section p {
+
+    font-family: 'Tajawal';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #1E2431;
+
+}
+
+.card .text-about-section h6 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    font-family: 'Tajawal';
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #1E2431;
+
+}
+
+.card .text-about-section{
+    padding: 20px;
+}
+.about-section{
+    height: 300.25px;
+    width: 100%;
+background: #C4C4C4;
+}
+
+
+
+
