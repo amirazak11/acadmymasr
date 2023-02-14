@@ -275,9 +275,6 @@ nav {
         top: 20px;
         left: 20px;
         font-size: 36px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         border-radius: 10px;
         border: #5d5d5d 1px solid;
                 font-size: 25px;
@@ -476,15 +473,12 @@ nav {
 @media only screen and (max-width: 449px) {
 
     #main {
-        display: flex;
         position: absolute;
         top: 18px;
         right: 20px;
     }
     #main button {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+
         width: 60px;
         height: 45px;
         border-radius: 10px;
@@ -568,7 +562,7 @@ nav {
 
 
     .responsive-btn {
-        width: 40px;
+        width: 120px;
         height: 35px;
     }
 
