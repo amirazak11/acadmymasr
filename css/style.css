@@ -9,6 +9,7 @@ body {
     direction: rtl;
     font-family: 'Tajawal';
     font-style: normal;
+    background: #F5F5F5;
 }
 
 
@@ -105,9 +106,11 @@ nav {
     flex-direction: column;
     align-items: center;
 }
+#about{
+    padding: 100px 0 100px 0;
+}
 
 .sectionHeader {
-    padding-top: 100px;
     font-family: 'Tajawal';
     font-style: normal;
     font-weight: 700;
@@ -153,7 +156,9 @@ nav {
 
 }
 
+.card-price{
 
+}
 
 #cards-container {
     margin-top: 18px;
@@ -211,7 +216,69 @@ nav {
 .responsive-btn {
     display: none;
 }
+.card-price{
+    background-color: #FFFFFF
+    ;
+    padding: 32px 24px 45px 24px;
+    margin-top: 48px;
+    box-shadow: 0px 45px 50px rgba(234, 234, 234, 0.12);
+border-radius: 4px;
+}
+.card-price h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    
+}
+.card-price p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #5F6871;
+}
+.card-price h2{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    
+}
+.card-price h2 span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+.card-price h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;    
+}
+.list{
+    margin-top: 32px;
 
+}
+.list ul{
+list-style: none; 
+
+}
+.list ul li{width: 100%;}
+.list ul li i{
+margin-left: 14px;      
+    }
+    .list-div div{
+        display: flex;
+        flex-direction: column;
+    }
+
+.img-map img{
+    width: 100%;
+    height: 100%;
+    
+}
 @media only screen and (max-width: 1024px) {
 
     .navbar {
