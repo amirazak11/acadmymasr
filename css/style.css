@@ -89,7 +89,7 @@ nav {
     margin-bottom: 42px;
 }
 
-.header-section h2 {
+.header-section h2 ,.header-section h1 {
     font-family: 'Tajawal';
     font-style: normal;
     font-weight: 700;
@@ -97,6 +97,8 @@ nav {
     text-align: right;
     color: #1F2533;
 }
+
+
 
 
 
@@ -322,7 +324,7 @@ border-radius: 4px;
 background-image: url('../imgs/Base.svg'); 
 background-repeat: no-repeat;
 background-size: 100% 100%;
-background-position-y: 50%;
+background-position-y: 90%;
 }
 .feedback-card{
     margin-top: 48px !important;
@@ -369,8 +371,34 @@ line-height: 24px;
 text-align: right;
 color: #5F6871;
 }
+.btnWidth-res{
+    display: none;
+}
 @media only screen and (max-width: 1024px) {
+    .res-display{
+        display: none;
+    }
 
+    .branches .btnWidth ,  .branches .btnWidth-res{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    } 
+.branches{
+width: auto;
+
+    }
+
+
+.branches button {
+    box-sizing: border-box;
+    width: 200px;
+    height: 48px;
+    opacity: 0.8;
+    margin:  10px 0 10px 0;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
     .navbar {
         display: none !important;
     }
@@ -626,10 +654,33 @@ color: #5F6871;
         margin-top: 9px; 
          margin-bottom: 9px;
     }
+    .map-close{
+        box-sizing: content-box;
+        width: 3em !important;
+        height: 3em !important;
+        padding: 0.5em 0.5em !important;
+        color: #000 !important;
+        border: 0 !important;
+        border-radius: 0.375rem !important;
+        opacity: 0.5 !important;
+    }
+    
+.feedback-bg{
+    background-image: url('../imgs/Base.svg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
 }
-
+@media only screen and (max-width: 990px) {
+    .feedback-card{
+        width: 90%;
+    }
+}
 @media only screen and (max-width: 449px) {
 
+    .feedback-card{
+        width: 100%;
+    }
     #main {
         position: absolute;
         top: 18px;
@@ -702,6 +753,9 @@ color: #5F6871;
 }
 
 @media only screen and (max-width: 375px) {
+    .feedback-card{
+        width: 100%;
+    }
     #main {
         position: absolute;
         top: 20px;
