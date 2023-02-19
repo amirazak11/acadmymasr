@@ -158,7 +158,9 @@ nav {
 }
 
 .card-price{
-
+    background: #FFFFFF;
+    box-shadow: 0px 45px 50px rgba(234, 234, 234, 0.12);
+    border-radius: 4px;
 }
 
 #cards-container {
