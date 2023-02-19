@@ -318,11 +318,11 @@ border: 1px solid #000000;
 border-radius: 4px;
         }
 
-#feedback{
+.feedback-bg{
 background-image: url('../imgs/Base.svg'); 
 background-repeat: no-repeat;
-background-position-y:70%;
-
+background-size: 100% 100%;
+background-position-y: 50%;
 }
 .feedback-card{
     margin-top: 48px !important;
