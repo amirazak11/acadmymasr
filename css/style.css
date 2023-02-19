@@ -643,8 +643,6 @@ width: auto;
     }
 
 
-
-
     #services .sectionLabel-text p {
         padding-bottom: 40px;
         width: 80%;
@@ -672,16 +670,29 @@ width: auto;
     background-repeat: no-repeat;
     background-size: cover;
     }
+
 }
+
 @media only screen and (max-width: 990px) {
     .feedback-card{
         width: 90%;
     }
+    .btnWidth-div{
+        display: flex;
+    }
+    #about, #location {
+        padding: 50px 0 50px 0;
+    }
 }
 @media only screen and (max-width: 449px) {
-
+    #about, #location {
+        padding: 50px 0 50px 0;
+    }
     .feedback-card{
         width: 100%;
+    }
+    .btnWidth-div{
+        flex-direction: column;
     }
     #main {
         position: absolute;
